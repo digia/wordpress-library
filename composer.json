@@ -1,0 +1,17 @@
+{
+    "name": "digia/wordpress-mailer",
+    "type": "library",
+    "description": "Mailing functionality for eloquent mailing in WordPress",
+    "require": {
+        "php": ">=5.4",
+        "swiftmailer/swiftmailer": "@stable"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "Webdigia\\": "src/"
+        }
+    }
+}
