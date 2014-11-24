@@ -1,7 +1,7 @@
 {
-    "name": "digia/wordpress-mailer",
+    "name": "digia/wordpress-library",
     "type": "library",
-    "description": "Mailing functionality for eloquent mailing in WordPress",
+    "description": "Some helpers for common WordPress theme tasks.",
     "require": {
         "php": ">=5.4",
         "swiftmailer/swiftmailer": "@stable"
